@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal" xmlns:ns="http://schemas.android.com/apk/lib/com.google.ads">
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ns:adSize="BANNER"
+        ns:adUnitId="@string/admob"
+        ns:loadAdOnCreate="true" 
+        >
+    </com.google.ads.AdView>
+	<TextView android:text="Leitor de Notícias" 
+	    android:textColor="#000000"
+
+	android:id="@+id/TextView01" android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"/>
+
+	<ListView android:cacheColorHint="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:id="@+id/ListView01" android:layout_weight="1"></ListView>
+ <LinearLayout
+ 				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">    
+                >
+
+                 <Button android:text="Globo Esporte" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/Button01" android:layout_x="300px" android:layout_y="373px"
+                 ></Button>
+                 <Button android:text="CBV" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/btn_meusport" android:layout_x="300px" android:layout_y="373px"></Button>
+         </LinearLayout>
+</LinearLayout>

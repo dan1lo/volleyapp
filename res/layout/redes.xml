@@ -1,0 +1,15 @@
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/background" xmlns:ns="http://schemas.android.com/apk/lib/com.google.ads">
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ns:adSize="BANNER"
+        ns:adUnitId="@string/admob"
+        ns:loadAdOnCreate="true" 
+        >
+    </com.google.ads.AdView>
+
+<ListView android:cacheColorHint="@color/background" android:id="@+id/Lv_redes" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+</ListView>
+</LinearLayout>
